@@ -1,14 +1,13 @@
 import streamlit as st
-import homepage,page1
+import homepage
+import page1
 
 PAGES = {
-  'Home' : homepage,
-  'Page 1' : page1,
+    "Home": homepage,
+    "Visualization": page1
 }
 
 st.sidebar.title("Navigation")
-selection = st.sidebar.radio("Go To",list(PAGES.keys())
-)
-
+selection = st.sidebar.radio("Go to", list(PAGES.keys()))
 page = PAGES[selection]
 page.app()
