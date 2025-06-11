@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 
 def app():
-    st.image("page1.jpg")
+
     st.title("Filtered Data Export (Multi-Column)")
 
     if 'df' not in st.session_state:
