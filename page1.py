@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.express as px
 
 def app():
-    st.image("page1.jpg")
+
     st.title('Visualization Page')
 
     if 'df' in st.session_state:
