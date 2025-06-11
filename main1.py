@@ -1,6 +1,6 @@
 import streamlit as st
 import homepage
-from . import page1,page2,page3
+import page1,page2,page3
 
 PAGES = {
     "Home": homepage,
