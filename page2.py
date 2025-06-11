@@ -5,7 +5,7 @@ import numpy as np
 
 def app():
 
-  st.image("D:\yashvi\csv_data_explorer\page2.png")
+  st.image("page2.png")
 
   st.title('Column-wise Distribution Analysis')
   
