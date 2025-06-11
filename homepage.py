@@ -4,7 +4,7 @@ import plotly.express as px
 
 
 def app():
-
+  st.image('D:\yashvi\csv_data_explorer\homepage.jpg')
   st.title("CSV Data Explorer")
 
   st.header("Information Page")
