@@ -5,7 +5,6 @@ import numpy as np
 
 def app():
 
-  st.image("page2.png")
 
   st.title('Column-wise Distribution Analysis')
   
