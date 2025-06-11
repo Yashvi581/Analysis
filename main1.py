@@ -1,12 +1,12 @@
 import streamlit as st
 import homepage
-import page1,page2,page3
+from . import page1,page2,page3
 
 PAGES = {
     "Home": homepage,
     "Visualization": page1,
     "Column Distribution" :page2,
-    "Export filtered data" : page3
+    "Export filtered data" : page3,
 }
 
 st.sidebar.title("Navigation")
